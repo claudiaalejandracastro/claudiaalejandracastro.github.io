@@ -1,0 +1,15 @@
+#Making a personal website#
+
+file.remove("about.Rmd")
+file.remove("_site.yml")
+file.create('.nojekyll')
+download.file("https://www.inqs.info/files/example_site.yml", "_site.yml")
+download.file("https://www.inqs.info/files/education.Rmd", "education.Rmd")
+download.file("https://www.inqs.info/files/teaching.Rmd", "teaching.Rmd")
+download.file("https://www.inqs.info/files/research.Rmd", "research.Rmd")
+download.file("https://www.inqs.info/files/styles.css", "styles.css")
+
+library("rmarkdown")
+
+#https://www.inqs.info/files/hiss_2/hiss_2.html#1 for directions!
+
