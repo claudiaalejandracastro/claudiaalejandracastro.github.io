@@ -1,6 +1,6 @@
-name: "WEBSITE_NAME"
-title: "WEBSITE_NAME"
-base_url: claudiaalejandracastro.github.io
+name: "CAC"
+title: "CAC"
+base_url: https://claudiaalejandracastro.github.io
 output_dir: "docs"
 navbar: 
   left:
